@@ -12,12 +12,8 @@ class Plugin extends PluginBase
     {
     }
 
-    public function boot() {
-        parent::registerSettings();
-    }
-
     public function registerSchedule($schedule)
     {
-        $schedule->command('queue:work')->everyMinute()->withoutOverlapping();
+       $schedule->command('queue:work --once')->everyMinute();
     }
 }
