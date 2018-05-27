@@ -1,6 +1,6 @@
 plugin:
-    name: 'nocio.intranet::lang.plugin.name'
-    description: 'nocio.intranet::lang.plugin.description'
+    name: 'nocio.queueworker::lang.plugin.name'
+    description: 'nocio.queueworker::lang.plugin.description'
     author: Nocio
     icon: oc-icon-refresh
     homepage: 'https://github.com/nocio/oc-queueworker-plugin'
